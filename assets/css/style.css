@@ -28,6 +28,7 @@ nav {
     color:  #ffffff;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
     padding: 10px;
     margin: 0px;
     line-height: 30px;
@@ -68,7 +69,7 @@ hr {
     margin: 0px 10px 0px 10px;
 }
 
-img {
+.imgphoto {
     width: 150px;
     height: 150px;
     float: left;
@@ -88,14 +89,118 @@ p {
 }
 
 .whiteback {
-    background: #ffffff;
+    background: #ffffff;   
 }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .bottonstyle {
+      color: #ffffff;
+      background-color: #4aaaa5;
+  }
+
+  .messageinput  {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;   
+  }
+  
+  .inputbox {
+      margin: 20px;
+  }
+
+  .labelstyle {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .box {
+    width: 250px;
+    height: 200px;
+    background: red;
+    margin: 20px;
+  }
+  .textbox {
+    background-color: #4aaaa5;  
+    color:  #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+     width: 100%;
+     margin: 0px; 
+  }
+
+  .imgbox .hangman {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1; 
+  }
+
+  .hangman {
+      background-image: url("../images/dominatehangman-1600.jpg");
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .rpgame {
+    background-image: url("../images/rpg-7.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+
+  .triviagame {
+    background-image: url('../images/trivia.jpg');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+
+  .rutgersinfowidget {
+    background-image: url('../images/logo-rutgers.jpg');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  }
+
+  .rockpaperscisors {
+    background-image: url('../images/rock-paper-scissors-logo1.jpg');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+
+  .flexcontainer {
+    display: flex;   
+  }
+
 footer {
     background-color: #666666;
     font-size: 9px;
     color: #b4aeae;
     text-align: center;
+    text-anchor: 
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
     margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
